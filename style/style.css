@@ -1,0 +1,29 @@
+.nav,
+.contain {
+    max-width: 1024px;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 600px) {
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1rem;
+    }
+
+    .card-item {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .card-item {
+        width: 33.33333%;
+    }
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
