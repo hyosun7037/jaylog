@@ -15,46 +15,115 @@
 </head>
 
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="nav container-fluid d-flex justify-content-between">
-            <a class="navbar-brand" href="#">jaylog</a>
-            <div class="d-flex">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <form class="d-flex">
-                    <input class="form-control" type="search" placeholder="검색어를 입력해주세요" aria-label="Search">
+    <div class="container" style="width: 1024px;">
+        <div class="row align-items-center mb-5" style="height:4rem;">
+            <div class="col-6">
+                <a class="px-2 text-decoration-none text-dark" href="#">Jaylog</a>
+            </div>
+            <div class="col-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="검색어를 입력해주세요" aria-label="검색어를 입력해주세요">
                     <button class="btn" type="submit">
                         <img src="./img/search.png" width="20" />
                     </button>
-                </form>
-                <button class="rounded-pill btn-dark border border-2 px-3">
-                    새 글 작성
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./img/user.png" width="25" />
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">마이페이지</a></li>
-                                <li><a class="dropdown-item" href="#">내 정보수정</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">로그아웃</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
+                    <button class="rounded-pill btn-dark border border-2 px-3">
+                        새 글 작성
+                    </button>
+                    <div class="row align-items-center">
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/user.png" width="25" />
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">마이페이지</a></li>
+                            <li><a class="dropdown-item" href="#">내 정보 수정</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">로그아웃</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/teo/post/55a318f8-7235-4692-a4e0-9aadfc2f9a5f/image.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/bepyan/post/cd776d77-2036-4df0-a3ae-58b1e8815b02/image.gif"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a short card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/junny8643/post/76781bc5-ebbc-427d-b0a1-1974bf4636c8/image.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/lhr4884/post/8f8aba67-0e4d-4a7b-a73f-d09a8b69177d/image.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/qkr7627/post/535baf6b-e7e4-4b36-a58d-30d2704a9c4d/image.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/dadak/post/57aa0d02-7360-4cb6-95a4-4b10dc8f96ca/image.gif"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://velog.velcdn.com/images/purplew/post/85f27743-0b86-42f8-86cf-c1fe3d4c0f31/image.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
