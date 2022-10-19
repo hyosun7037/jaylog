@@ -17,10 +17,13 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col min-vh-100">
-                <textarea id="markdownEditor" class="h-75 w-100 m-0 p-0 border-0" onkeyup="test()"></textarea>
-                <div class="fixed-bottom p-3 row w-50">
+        <div class="row row-cols-1 row-cols-sm-2">
+            <div class=" col min-vh-100">
+                <textarea id="markdownEditor" class="h-75 w-100 m-0 p-0 border-0 fs-4 p-3 " placeholder="제목을 입력하세요"
+                    onkeyup="test()"></textarea>
+
+                <!-- 나가기, 저장하기 버튼 -->
+                <div class="p-3 row fixed-bottom bg-white shadow-lg">
                     <span class="col-auto me-auto">
                         <a href="./main.html" class=" text-decoration-none text-dark">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -28,10 +31,10 @@
                                 <path fill-rule="evenodd"
                                     d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                             </svg>
-                            <span class="mx-1">나가기</span>
+                            <span class="m-2">나가기</span>
                         </a>
                     </span>
-                    <button type="button" class="btn text-white col-auto"
+                    <button type="button" class="btn fw-bold text-white col-auto mx-2"
                         style="background-color: #20c997;">저장하기</button>
                 </div>
             </div>
