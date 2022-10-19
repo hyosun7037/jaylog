@@ -15,19 +15,17 @@
 </head>
 
 <body class="bg-light">
-    <div class="container" style="width: 1024px;">
-        <div class="row align-items-center mb-5" style="height:4rem;">
-            <div class="col-6">
-                <a class="px-2 fs-3 text-decoration-none text-dark" href="#">Jaylog</a>
-            </div>
-            <div class="col-6">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a class="px-2 fs-3 text-decoration-none text-dark" href="#">Jaylog</a>
+            <div>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="검색어를 입력해주세요" aria-label="검색어를 입력해주세요">
                     <button class="btn" type="submit">
                         <img src="./img/search.png" width="20" />
                     </button>
                     <button class="rounded-pill btn-dark border border-2 px-3">
-                        새 글 작성
+                        <a href="./newPost.html" class="text-decoration-none text-white">새 글 작성</a>
                     </button>
                     <div class="row align-items-center">
                         <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,85 +43,103 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/teo/post/55a318f8-7235-4692-a4e0-9aadfc2f9a5f/image.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+    </nav>
+    <section>
+        <div class="container-lg my-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/teo/post/55a318f8-7235-4692-a4e0-9aadfc2f9a5f/image.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Rxjs 한번 배워보실래요?</h5>
+                            <div class="card-text fw-lighter">나: "그래서 RxJs를 대체 할 만한게 있을까요?"
+                                크루: "솔직히 비동기나 시간을 다루는 데에는 Rxjs를 대체 할 만한게 없긴 하죠. 진짜 좋다고 생각해요. ... 배우기 어려워서 그렇지. 웬만한 개발자들은
+                                배워야
+                                할 이유를 납득하는 것 부터 어려울걸요?"
+                                함께 RxJs를 쓰고 있는 개발자 크루와의 대화 중에서
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/bepyan/post/cd776d77-2036-4df0-a3ae-58b1e8815b02/image.gif"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/bepyan/post/cd776d77-2036-4df0-a3ae-58b1e8815b02/image.gif"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rxjs 한번 배워보실래요?</h5>
+                            <p class="card-text fw-lighter">나: "그래서 RxJs를 대체 할 만한게 있을까요?"
+                                크루: "솔직히 비동기나 시간을 다루는 데에는 Rxjs를 대체 할 만한게 없긴 하죠. 진짜 좋다고 생각해요. ... 배우기 어려워서 그렇지. 웬만한 개발자들은
+                                배워야
+                                할 이유를 납득하는 것 부터 어려울걸요?"
+                                함께 RxJs를 쓰고 있는 개발자 크루와의 대화 중에서</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/junny8643/post/76781bc5-ebbc-427d-b0a1-1974bf4636c8/image.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/junny8643/post/76781bc5-ebbc-427d-b0a1-1974bf4636c8/image.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/lhr4884/post/8f8aba67-0e4d-4a7b-a73f-d09a8b69177d/image.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/lhr4884/post/8f8aba67-0e4d-4a7b-a73f-d09a8b69177d/image.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/qkr7627/post/535baf6b-e7e4-4b36-a58d-30d2704a9c4d/image.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/qkr7627/post/535baf6b-e7e4-4b36-a58d-30d2704a9c4d/image.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/dadak/post/57aa0d02-7360-4cb6-95a4-4b10dc8f96ca/image.gif"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/dadak/post/57aa0d02-7360-4cb6-95a4-4b10dc8f96ca/image.gif"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://velog.velcdn.com/images/purplew/post/85f27743-0b86-42f8-86cf-c1fe3d4c0f31/image.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://velog.velcdn.com/images/purplew/post/85f27743-0b86-42f8-86cf-c1fe3d4c0f31/image.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

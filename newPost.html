@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>새글작성</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row bg-warning">
+            <div class="col bg-primary">테스트1</div>
+            <div class="col">테스트2</div>
+        </div>
+    </div>
+    <!-- <textarea id="markdownEditor" onkeyup="test()"></textarea>
+    <div id="markdownResult"></div> -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+    function test() {
+        document.querySelector("#markdownResult").innerHTML = marked.parse(document.querySelector("#markdownEditor").value);
+    }
+
+</script>
+
+</html>
