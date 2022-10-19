@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>새글작성</title>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container mt-1">
+            <a class="px-2 fs-3 text-decoration-none text-dark" href="./main.html">Jaylog</a>
+            <div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="검색어를 입력해주세요" aria-label="검색어를 입력해주세요">
+                    <button class="btn" type="submit">
+                        <img src="./img/search.png" width="20" />
+                    </button>
+                    <button class="rounded-pill btn-dark border border-2 px-3">
+                        <a href="./newPost.html" class="text-decoration-none text-white">새 글 작성</a>
+                    </button>
+                    <div class="row align-items-center">
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/user.png" width="25" />
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./profile.html">마이페이지</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">로그아웃</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container my-5 ">
+            <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col text-center">
+                    <div>
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                            class="ratio ratio-1x1 rounded-circle w-25" alt="profile">
+                    </div>
+                    <div>
+                        <button type="button" class="btn text-white fw-bold m-3 px-3"
+                            style="background-color: #20c997;">이미지 업로드</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <h2>김봉봉</h2>
+                    <p>풀스택 개발을 목표로 공부중</p>
+                    <a href="#" style=" color: #20c997;">내 정보 수정</a>
+                </div>
+            </div>
+            <hr class="bg-danger border-2 border-top" style="--bs-border-opacity: .9;">
+        </div>
+    </section>
+</body>
