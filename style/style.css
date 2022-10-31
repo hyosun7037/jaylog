@@ -1,29 +1,26 @@
-.nav,
-.contain {
+#custom .container {
     max-width: 1024px;
-    height: 4rem;
+    /* height: 4rem; */
     margin-left: auto;
     margin-right: auto;
 }
 
-@media(min-width: 600px) {
-    .card-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -1rem;
-    }
-
-    .card-item {
-        width: 50%;
-    }
+#custom .card-group {
+    height: 300px;
 }
 
-@media(min-width: 1200px) {
-    .card-item {
-        width: 33.33333%;
-    }
+#custom .card-group .card {
+    margin: 0 5px 10px;
 }
 
-.selector-for-some-widget {
-    box-sizing: content-box;
+#custom .card-group .card-text {
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: break-word;
+}
+
+#custom .card-group .card-img-con {
+    height: 150px;
+    overflow-y: hidden;
 }
